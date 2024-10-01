@@ -15,6 +15,6 @@
     - build
 
 - name: Configure SSMTP
-  import_taks: configure.yml
+  import_tasks: configure.yml
   tags:
     - configure
