@@ -10,11 +10,11 @@
         sansible_ssmtp_user is not none
 
 - name: Install SSMTP
-  include_tasks: install.yml
+  import_tasks: install.yml
   tags:
     - build
 
 - name: Configure SSMTP
-  include_taks: configure.yml
+  import_taks: configure.yml
   tags:
     - configure
